@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Maxi Taxi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="MAXI TAXI.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <style>
+    body {
+      background-color: #1b1b1b;
+      color: #fff;
+    }
+    .about-header {
+      background-color: #000000;
+      color: white;
+      padding: 50px 0;
+      text-align: center;
+
+    }
+    .about-header h1 {
+      font-size: 3rem;
+    }
+    .section {
+      padding: 40px 0;
+    }
+    .team img {
+      border-radius: 50%;
+      max-width: 100px;
+    }
+    .footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .team-member {
+  margin-bottom: 20px;
+}
+
+.team-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+  </style>
+</head><body class="bg-black text-white">
+  <!-- Navbar start -->
+
+
+  <div class="navbar navbar-expand-lg navbar-dark bg-black  fs-5 sticky-top">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="MAXI TAXI.html"><img src="images/Maxi Taxi.png" height="80px" width="80px"
+          class="rounded-5"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <!-- ul start -->
+        <ul class="navbar-nav m-auto my-2 mb-lg-0  ">
+          <!-- home -->
+
+          <li class="nav-item mx-3">
+            <a class="nav-link active " aria-current="page" href="MAXI TAXI.html">Home</a>
+          </li>
+          <!-- Outstation -->
+          <li class="nav-item mx-3">
+            <a class="nav-link text-white " href="Outstation.html">Outstation</a>
+          </li>
+          <!-- About -->
+          <li class="nav-item mx-3 dropdown ">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              About
+            </a>
+            <!-- About dropdown -->
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="about.html">About us</a></li>
+              <li><a class="dropdown-item" href="our offerings.html">Our Offerings</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+            </ul>
+          </li>
+          <!-- Login -->
+          <li class="nav-item mx-3 dropdown  ">
+            <a href="#" class="nav-link dropdown toggle  text-white" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="images/profil.svg" class="bg-light  rounded-3 ">
+              Login
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li>
+                <a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#singupmodal"><img
+                    src="images/profil.svg"> Customer ?
+                  &nbsp;<button class="bg-light text-black rounded-2" data-bs-toggle="modal"
+                    data-bs-target="#singupmodal">Singup </button></a>
+              </li>
+
+            </ul>
+
+            <!-- Three dots -->
+
+          </li>
+          <li class="nav-item mx-3 dropdown">
+            <a href="#" class="nav-link dropdown toggle bg-light rounded-3" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="images/3verticalDots.svg" alt="no image">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark ">
+              <li>
+                <a href="notification.html" class="dropdown-item">
+                  <img src="images/notification.svg" alt="no image">Notification Preferance
+                </a>
+              </li>
+              <li>
+                <a href="customercare.html  " class="dropdown-item">
+                  <img src="images/helpcenter.svg" alt="no image">24x7 Customer Care
+                </a>
+              </li>
+              <li>
+                <a href="download app.html" class="dropdown-item">
+                  <img src="images/downloadApp.svg" alt="no image">Download App
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- navbar End -->
+
+
+
+  <!-- Modal -->
+  <div class="modal fade " id="singupmodal" tabindex="-1" aria-labelledby="singupmodalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="singupmodalLabel">Singup </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="d-flex my-3">
+            <input class="form-control" type="text" name="email" placeholder="Enter Email Address">
+          </form>
+          <form class="d-flex">
+            <input class="form-control" type="password" name="password" placeholder="Enter Password ">
+          </form>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" value="submit" class=" btn btn-danger bg-orangered" data-bs-dismiss="modal">Log
+            in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal end -->
+
+
+<!-- Header Section -->
+<div class="about-header">
+  <div class="container">
+    <h1>About <span  class="text-orangered">Maxi Taxi</span></h1>
+    <p>Your trusted partner for safe, reliable, and comfortable rides.</p>
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="container section">
+  <div class="row">
+    <div class="col-md-6">
+      <a href="MAXI TAXI.html"><img src="images/Maxi taxi.png" alt="Maxi Taxi Image" class="img-fluid rounded"></a>
+    </div>
+    <div class="col-md-6">
+      <h2>Who We Are</h2>
+      <p>
+        Maxi Taxi is a leading transportation service provider committed to delivering exceptional travel experiences. Since our inception, we have been focused on offering safe, punctual, and comfortable rides to our customers. Whether you're commuting to work, heading to the airport, or exploring the city, Maxi Taxi is your reliable travel partner.
+      </p>
+      <p>
+        Our fleet is equipped with modern vehicles, and our drivers are professionally trained to ensure your safety and satisfaction. We strive to make every ride convenient, enjoyable, and memorable.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Mission Section -->
+<div class="container section text-center">
+  <h2>Our Mission</h2>
+  <p class="lead">
+    At Maxi Taxi, our mission is to redefine urban transportation with reliability, affordability, and exceptional customer service. We aim to connect communities and make travel stress-free for everyone.
+  </p>
+</div>
+
+<!-- Services Section -->
+<div class="container section">
+  <h2 class="text-center">Our Services</h2>
+  <div class="row text-center">
+    <div class="col-md-4">
+      <div class="p-4 border rounded">
+        <h4>Airport Transfers</h4>
+        <p>On-time pickups and drop-offs to ensure stress-free travel to and from the airport.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-4 border rounded">
+        <h4>Group Travel</h4>
+        <p>Comfortable and spacious rides for family trips, corporate events, and special occasions.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-4 border rounded">
+        <h4>24/7 Availability</h4>
+        <p>Our services are available around the clock, ensuring you can travel anytime, anywhere.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="container section text-center">
+  <h2>Meet Our Team</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="team-member">
+        <img src="images/Priyanshu.webp" alt="Team Member" class="img-fluid team-img">
+        <h5>Priyanshu Mishra</h5>
+        <p>Founder & CEO</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="team-member">
+        <img src="images/ms.jpeg" alt="Team Member" class="img-fluid team-img">
+        <h5>MS Dhoni</h5>
+        <p>Operations Manager</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="team-member">
+        <img src="images/vk.jpeg" alt="Team Member" class="img-fluid team-img">
+        <h5>Virat Kohli</h5>
+        <p>Customer Service Lead</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <!-- Logo and Description -->
+        <div class="col-md-4 mb-3">
+          <h5 class="text-uppercase"> <span class="text-orangered">Maxi Taxi</span></h5>
+          <p>Providing safe, reliable, and comfortable rides 24/7. Your trusted partner in transportation.</p>
+        </div>
+
+       <!-- Contact Information -->
+        <div class="col-md-4 mb-3">
+          <h5 class="text-uppercase">Contact Us</h5>
+          <ul class="list-unstyled">
+            <li><i class="fa-solid fa-phone"></i> Phone: +1 800 555 1234</li>
+            <li><i class="fa-solid fa-envelope"></i> Email: info@maxitaxi.com</li>
+            <li><i class="fa-solid fa-location-dot"></i> Address: 123 Taxi Lane, Cityville, TX</li>
+          </ul>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="col-md-4 mb-3">
+          <h5 class="text-uppercase">Follow Us</h5>
+          <ul class="list-unstyled d-flex gap-3 icons">
+            <li><a href="https://www.facebook.com/profile.php?id=100023809561556"><i
+                  class="fa-brands fa-facebook-f  fa-lg"></i></a></li>
+            <li> <a href="https://www.linkedin.com/in/priyanshu-mishra-66b7ba343/"><i
+                  class="fa-brands fa-linkedin-in fa-lg"></i></a>
+            <li><a href="https://x.com/Priyanshuu69"><i class="fa-brands fa-x-twitter fa-lg"></i></a></li>
+            <li><a href="https://www.instagram.com/_.priyanshu069/"><i class="fa-brands fa-instagram fa-lg"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-center mt-3">
+        <p class="mb-0">© 2025 Maxi Taxi. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

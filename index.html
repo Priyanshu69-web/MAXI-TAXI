@@ -193,7 +193,7 @@
     <div class="row text-center ">
       <h1 class="my-4 text-white"> There's a<span class="text-orangered text-shadow"> Maxi Taxi</span> for everyone</h1>
       <!-- Affordable Section -->
-      <div class="col-12 col-md-4 for-section bg-black border border-5 border-black rounded-3 p-3 mb-3 " id="img1">
+      <div class="col-12 col-md-4 for-section bg-black border border-5 border-black rounded-3 p-3 mb-3 ">
         <a href="index.html">
           <img src="images/affordable rides.webp" class="img-fluid rounded-3" alt="Affordable Rides">
           <h4 class="text-orangered mt-3">For any budget</h4>
@@ -202,8 +202,8 @@
         </a>
       </div>
       <!-- Outstation Section -->
-      <div class="col-12 col-md-4 for-section bg-black border border-5 border-black rounded-3 p-3 mb-3" id="img2">
-        <a href="outstation.html">
+      <div class="col-12 col-md-4 for-section bg-black border border-5 border-black rounded-3 p-3 mb-3">
+        <a href="Outstation.html">
           <img src="images/outstation.webp" class="img-fluid rounded-3" alt="Outstation">
           <h4 class="text-orangered mt-3">For Outstation</h4>
           <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed eiusmod tempor incididunt
@@ -211,7 +211,7 @@
         </a>
       </div>
       <!-- Rental Section -->
-      <div class="col-12 col-md-4 for-section bg-black border border-5 border-black rounded-3 p-3 mb-3" id="img3">
+      <div class="col-12 col-md-4 for-section bg-black border border-5 border-black rounded-3 p-3 mb-3" >
         <a href="rental.html">
           <img src="images/rental.webp" class="img-fluid rounded-3" alt="Rental">
           <h4 class="text-orangered mt-3">For Rental</h4>
@@ -489,20 +489,7 @@
     </div>
   </footer>
 
-  <script>
-    $(document).ready(function () {
-      $(window).scroll(function () {
-        var positiontop = $(document).scrollTop();
-        console.log(positiontop);
 
-        if ((positiontop > 750) && (positiontop < 1400)) {
-          $("#img1").addClass("animate__animated animate__bounceInLeft");
-          $("#img2").addClass("animate__animated animate__flipInX");
-          $("#img3").addClass("animate__animated animate__bounceInRight");
-        }
-      });
-    });
-  </script>
 
 
 
